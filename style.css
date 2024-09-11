@@ -16,21 +16,6 @@
     width: 40px;
     padding-left: 15px;
 }
-#search-icon{
-    width: 25px;
-}
-#right-nav-icon{
-    font-size: 12px;
-    color: black;
-    font-weight: bold;
-}
-#right-nav-icon{
-    width: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-}
 #search{
     background-image: url("./icons/search-interface-symbol.png");
     background-size: 13px;
@@ -55,14 +40,11 @@
     color: black;
 }
 .right-nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;  
     gap: 10px;
 }
 #bg-icon{
     display: flex;
-    justify-content: center;
     height: 15px;
     width: 15px;
 }
