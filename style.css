@@ -6,7 +6,7 @@
 .container{
     height: 70px;
     width: 100%;
-    font-size: 12px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,8 +44,25 @@
     gap: 10px;
 }
 #bg-icon{
-    display: flex;
     height: 15px;
     width: 15px;
 }
-
+#bg-icon>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.side_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+main>img{
+    height: 80px;
+}
+.side_container>a{
+    font-weight: bold;
+    color: black;
+}
